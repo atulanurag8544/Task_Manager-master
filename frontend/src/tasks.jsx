@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import ToastContext from "./context/ToastContext";
 import Footer from "./components/footer";
 
-const API = "http://localhost:5000";
+const API = "http://localhost:5005";
 
 const Tasks = () => {
     const [data, setData] = useState({
